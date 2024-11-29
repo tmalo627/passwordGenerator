@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: lightblue;
     font-size: medium;
@@ -38,4 +39,21 @@ input[type=number] {
 
 .passwords {
     padding: 30px;
+=======
+body {
+    background-color: lightblue;
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.parameters {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+>>>>>>> e46b992 (minimum working product;)
 }
