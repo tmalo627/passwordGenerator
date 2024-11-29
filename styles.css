@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+    padding: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    margin: 0;
+}
+input[type=number] {
+    text-align: right;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.parameters {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.buttons {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.passwords {
+    padding: 30px;
+    padding-bottom: 15px;
+}
+
+.passwords {
+    padding: 30px;
+}
