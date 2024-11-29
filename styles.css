@@ -57,6 +57,7 @@ input::-webkit-inner-spin-button {
 }
 input[type=number] {
     text-align: right;
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 
