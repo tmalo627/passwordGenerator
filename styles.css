@@ -50,10 +50,37 @@ h1 {
     padding: 20px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    margin: 0;
+}
+input[type=number] {
+    text-align: right;
+    -moz-appearance: textfield;
+}
+
 .parameters {
     margin-left: 50px;
     display: flex;
     justify-content: space-between;
     width: 40%;
+<<<<<<< HEAD
 >>>>>>> e46b992 (minimum working product;)
+=======
+}
+
+.buttons {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.passwords {
+    padding: 30px;
+    padding-bottom: 15px;
+}
+
+.passwords {
+    padding: 30px;
+>>>>>>> faba89a (minimum working product)
 }

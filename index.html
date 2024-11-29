@@ -38,26 +38,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>I need a new password</title>
         <link rel="stylesheet" href="styles.css">        
+        <link rel="icon" href="images/favicon.ico">
+        <script src="script.js"></script>
     </head>
     <body>
-        <script src="script.js"></script>
-        <h1>PASSWORD GENERATOR 3000</h1>
-        
+        <h1>PASSWORD GENERATOR 3000</h1>        
         <div class="parameters">
-            <label for="length">Number of characters</label>
-            <input type="text" name="length" />
+            <label for="length" id="lengthLabel">Password length</label>
+            <input type="number" id="pwdLength" />
         </div>
-
         <div class="parameters">
-            <label for="special">Include special characters</label>
-            <input type="checkbox" name="special" />
+            <label for="special" id="specialLabel">Include special characters</label>
+            <input type="checkbox" id="special" />
         </div>
-
         <div class="parameters">
-            <label for="quantity">Number of passwords to generate</label>
-            <input type="text" name="quantity">
+            <label for="quantity" id="quantityLabel">Number of passwords to generate</label>
+            <input type="number" id="quantity">
         </div>
-
+        <div class="buttons">
+            <button id="generateBtn" onclick="generateBtn();">Generate passwords</button>
+            <button id="reset" onclick="resetBtn();">Reset</button>
+        </div>
+        <div class="output" id="passwords">
+        </div>
     </body>
 >>>>>>> e46b992 (minimum working product;)
 </html>
